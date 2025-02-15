@@ -20,12 +20,6 @@ import paparse from "https://jslib.k6.io/papaparse/5.1.1/index.js";
 
 import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
-export function handleSummary(data) {
-  return {
-    "reporter_k6.html": htmlReport(data),
-  };
-}
-
 
 export const options = {
   stages: [
@@ -62,3 +56,10 @@ export default function () {
 
   sleep(1);
 }
+
+export function handleSummary(data) {
+  return {
+    "reporter_k6.html": htmlReport(data),
+  };
+}
+
