@@ -12,9 +12,8 @@ Este projeto utiliza **K6** para realizar testes de carga, estresse e desempenho
     
 -   JavaScript - Para scripts de teste
     
--   [PapaParse](https://www.papaparse.com/) - Manipulação de arquivos CSV
-    
--   Docker (opcional) - Para execução do K6 em ambiente isolado
+-   [PapaParse](https://www.papaparse.com/) - Manipulação de arquivos CSV    
+
     
 -   Grafana K6 Cloud - Para monitoramento na nuvem
     
