@@ -53,7 +53,7 @@ brew install k6  # Para usuários do Homebrew
 choco install k6  # Para usuários do Chocolatey
 ```
 
-Ou baixe diretamente aqui.
+Ou baixe diretamente através da documentação do [K6]( https://grafana.com/docs/k6/latest/) 
 
 ### 2️⃣ **Executar os Testes**
 
