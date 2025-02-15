@@ -81,7 +81,7 @@ k6 run tests/performance.js
 ```
 k6 run tests/scenarios.js -e URL=https://test-api.k6.io/public
 ```
-### 4️⃣ **Gerar o Dashboard**
+### 3️⃣ **Gerar o Dashboard**
 
 #### Opção 1: Com saída para dashboard interativo
 
@@ -109,7 +109,7 @@ $env:K6_WEB_DASHBOARD="true" k6 run tests/scenarios.js
 
 
 
-### 3️⃣ **Executar Testes na Nuvem com Grafana K6 Cloud**
+### 4️⃣ **Executar Testes na Nuvem com Grafana K6 Cloud**
 
 #### 🔹 Criar conta no **Grafana K6 Cloud**
 
